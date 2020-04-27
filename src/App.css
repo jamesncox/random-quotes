@@ -1,38 +1,116 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  background-color: rgba(0, 0, 0, 0.829);
+  /* width: 60%; */
+  margin: auto;
   color: white;
+  padding: 20px;
+  /* border-radius: .10in; */
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 15px;
+  color: rgb(253, 253, 253);
+  margin: auto;
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-size: 20px;
+}
+
+input {
+  border-radius: .05in;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.568);
+  font-size: 15px;
+  border-radius: .05in;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(38, 89, 148)
+}
+
+.wrapper {
+  /* background-color: rgba(128, 128, 128, 0.205); */
+  background-image: url("https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  margin: auto;
+  width: 90%;
+  height: 700px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  margin: auto;
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  /* background-color: #bbb; */
+  /* color: black; */
+  height: 5000px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  /* background: rgb(68,16,68);
+  background: linear-gradient(137deg, rgba(68,16,68,1) 0%, rgba(23,2,41,1) 52%, rgba(27,0,0,1) 100%); */
+  background-image: url("https://images.pexels.com/photos/1110504/pexels-photo-1110504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  border-radius: .1in;
+  /* padding-top: 80px; */
+  height: 300px;
+  color: white;
+  text-shadow: 1px 2px black;
+  transform: rotateY(180deg);
+}
+
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
 }
