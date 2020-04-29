@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <div className="wrapper">
           <h1>Motivational Quotes</h1>
-          <h2>Click below to see a random quote</h2>
+          <h2>Click below to see a famous quote</h2>
           {/* <Signup /> */}
           <QuoteContainer />
         </div>
