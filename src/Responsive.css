@@ -1,0 +1,179 @@
+@media only screen and (max-height:500px){
+
+    h1 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        height: 400px;
+    }
+
+   .flip-card {
+       margin-top: 20px;
+       width: 275px;
+   }
+
+   .flip-card-back {
+       width: 275px;
+       height: 275px;
+   }
+}
+
+@media only screen and (max-height:390px){
+    
+    h1 {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        height: 350px;
+    }
+
+   .flip-card {
+       margin-top: 10px;
+       width: 225px;
+   }
+
+   .flip-card-back {
+       width: 225px;
+       height: 225px;
+   }
+}
+
+@media only screen and (max-height:330px){
+
+    h1 {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        height: 300px;
+    }
+
+   .flip-card {
+       margin-top: 10px;
+       width: 225px;
+   }
+
+   .flip-card-back {
+       width: 225px;
+       height: 225px;
+   }
+}
+
+@media only screen and (max-width:400px){
+
+    h1 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        height: 650px;
+    }
+
+   .flip-card {
+       margin-top: 20px;
+       width: 275px;
+   }
+
+   .flip-card-back {
+       width: 275px;
+       height: 275px;
+   }
+}
+
+@media only screen and (max-width:350px){
+
+    h1 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        height: 650px;
+    }
+
+   .flip-card {
+       margin-top: 20px;
+       width: 225px;
+   }
+
+   .flip-card-back {
+       width: 225px;
+       height: 225px;
+   }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./Responsive.css"
 // import Signup from './Signup'
 import QuoteContainer from './QuoteContainer'
 import { connect } from 'react-redux';

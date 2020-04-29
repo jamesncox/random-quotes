@@ -38,7 +38,7 @@ button {
 
 p {
   font-size: 20px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .button {
@@ -92,7 +92,7 @@ p {
 .flip-card-front {
   /* background-color: #bbb; */
   /* color: black; */
-  height: 5000px;
+  /* height: 5000px; */
 }
 
 /* Style the back side */
