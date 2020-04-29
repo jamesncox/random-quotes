@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="wrapper">
-          <h1>Motivational Quotes</h1>
-          <h2>Click below to see a famous quote</h2>
+          <h1>QUOTIVATIONAL</h1>
+          <h2>Need motivation? Click below to see a famous quote</h2>
           {/* <Signup /> */}
           <QuoteContainer />
         </div>

@@ -5,11 +5,9 @@
 
 h1 {
   background-color: rgba(0, 0, 0, 0.829);
-  /* width: 60%; */
   margin: auto;
   color: white;
   padding: 20px;
-  /* border-radius: .10in; */
 }
 
 h2 {
@@ -47,7 +45,6 @@ p {
 }
 
 .wrapper {
-  /* background-color: rgba(128, 128, 128, 0.205); */
   background-image: url("./images/black\ and\ white\ script.jpg");
   margin: auto;
   width: 90%;
@@ -96,11 +93,8 @@ p {
 
 /* Style the back side */
 .flip-card-back {
-  /* background: rgb(68,16,68);
-  background: linear-gradient(137deg, rgba(68,16,68,1) 0%, rgba(23,2,41,1) 52%, rgba(27,0,0,1) 100%); */
   background-image: url("./images/cathedral\ photo\ bigger.jpg");
   border-radius: .1in;
-  /* padding-top: 80px; */
   height: 40vh;
   width: 40vh;
   color: white;
