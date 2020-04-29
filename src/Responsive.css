@@ -19,9 +19,9 @@
         font-size: 12px;
     }
 
-    .wrapper {
+    /* .wrapper {
         height: 400px;
-    }
+    } */
 
    .flip-card {
        margin-top: 20px;
@@ -34,10 +34,10 @@
    }
 }
 
-@media only screen and (max-height:390px){
+@media only screen and (max-height:425px){
     
     h1 {
-        padding: 10px;
+        padding: 15px;
         font-size: 15px;
     }
 
@@ -55,12 +55,12 @@
         font-size: 10px;
     }
 
-    .wrapper {
+    /* .wrapper {
         height: 350px;
-    }
+    } */
 
    .flip-card {
-       margin-top: 10px;
+       margin-top: 15px;
        width: 225px;
    }
 
@@ -70,7 +70,7 @@
    }
 }
 
-@media only screen and (max-height:330px){
+@media only screen and (max-height:350px){
 
     h1 {
         padding: 5px;
@@ -92,7 +92,7 @@
     }
 
     .wrapper {
-        height: 300px;
+        height: 95vh;
     }
 
    .flip-card {
@@ -106,7 +106,7 @@
    }
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
 
     h1 {
         padding: 10px;
@@ -115,7 +115,7 @@
 
     h2 {
         font-size: 15px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     p {
@@ -127,12 +127,12 @@
         font-size: 12px;
     }
 
-    .wrapper {
+    /* .wrapper {
         height: 650px;
-    }
+    } */
 
    .flip-card {
-       margin-top: 20px;
+       margin-top: 25px;
        width: 275px;
    }
 
@@ -142,7 +142,7 @@
    }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:360px){
 
     h1 {
         padding: 10px;
@@ -163,17 +163,31 @@
         font-size: 12px;
     }
 
-    .wrapper {
+    /* .wrapper {
         height: 650px;
-    }
+    } */
 
    .flip-card {
        margin-top: 20px;
-       width: 225px;
+       width: 200px;
    }
 
    .flip-card-back {
-       width: 225px;
-       height: 225px;
+       width: 200px;
+       height: 200px;
    }
 }
+
+/* @media only screen and (max-width:300px){
+
+    .flip-card {
+        margin-top: 50vh;
+        width: 50vh;
+    }
+ 
+    .flip-card-back {
+        width: 50vh;
+        height: 50vh;
+    }
+
+} */

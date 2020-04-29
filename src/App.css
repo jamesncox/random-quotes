@@ -51,7 +51,7 @@ p {
   background-image: url("https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   margin: auto;
   width: 90%;
-  height: 700px;
+  height: 90vh;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -59,8 +59,8 @@ p {
   background-color: transparent;
   margin: auto;
   margin-top: 40px;
-  width: 300px;
-  height: 200px;
+  width: 40vh;
+  height: 40vh;
   perspective: 1000px;
 }
 
@@ -89,20 +89,20 @@ p {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  /* background-color: #bbb; */
-  /* color: black; */
-  /* height: 5000px; */
-}
+/* .flip-card-front {
+  background-color: #bbb;
+  color: black;
+} */
 
 /* Style the back side */
 .flip-card-back {
   /* background: rgb(68,16,68);
   background: linear-gradient(137deg, rgba(68,16,68,1) 0%, rgba(23,2,41,1) 52%, rgba(27,0,0,1) 100%); */
-  background-image: url("https://images.pexels.com/photos/1110504/pexels-photo-1110504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://images.pexels.com/photos/2823459/pexels-photo-2823459.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   border-radius: .1in;
   /* padding-top: 80px; */
-  height: 300px;
+  height: 40vh;
+  width: 40vh;
   color: white;
   text-shadow: 1px 2px black;
   transform: rotateY(180deg);

@@ -16,7 +16,7 @@ class QuoteContainer extends Component {
                     <div className="flip-card-front">
                         <img
                             src="https://bigmemes.funnyjunk.com/pictures/Albert_e4f2e8_6546489.jpg"
-                            alt="Avatar"
+                            alt="Einstein Picture and Quote"
                             style={{ borderRadius: ".1in" }}
                         />
                     </div>
