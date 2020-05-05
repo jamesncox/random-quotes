@@ -1,5 +1,7 @@
 const SET_QUOTE = "SET_QUOTE"
+const RANDOM_IMAGE = "SET_IMAGE"
 
 export {
-    SET_QUOTE
+    SET_QUOTE,
+    RANDOM_IMAGE
 }
