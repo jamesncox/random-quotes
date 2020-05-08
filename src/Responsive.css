@@ -177,17 +177,3 @@
        min-height: 200px;
    }
 }
-
-/* @media only screen and (max-width:300px){
-
-    .flip-card {
-        margin-top: 50vh;
-        width: 50vh;
-    }
- 
-    .flip-card-back {
-        width: 50vh;
-        height: 50vh;
-    }
-
-} */

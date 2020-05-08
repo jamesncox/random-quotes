@@ -16,7 +16,6 @@ class QuoteContainer extends Component {
     }
 
     render() {
-        console.log(this.props.image)
         return (
             <div className="flip-card">
                 <div className="flip-card-inner">

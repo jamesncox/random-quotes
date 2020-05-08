@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import "./Responsive.css"
-// import Signup from './Signup'
 import QuoteContainer from './QuoteContainer'
 import { connect } from 'react-redux';
 import { getQuote } from './actions/quotes'
@@ -14,7 +13,6 @@ class App extends Component {
         <div className="wrapper">
           <h1>Quotivational</h1>
           <h2>Need motivation? Click for a famous quote</h2>
-          {/* <Signup /> */}
           <QuoteContainer />
         </div>
       </div>
