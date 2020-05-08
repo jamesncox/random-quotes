@@ -57,7 +57,7 @@ p {
   margin: auto;
   margin-top: 40px;
   width: 40vh;
-  height: 40vh;
+  min-height: 40vh;
   perspective: 1000px;
 }
 
@@ -93,9 +93,9 @@ p {
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url("./images/cathedral\ photo\ bigger.jpg");
+  background-image: url("./images/decorated pixabay cropped.jpg");
   border-radius: .1in;
-  height: 40vh;
+  min-height: 40vh;
   width: 40vh;
   color: white;
   text-shadow: 1px 2px black;
